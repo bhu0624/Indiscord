@@ -1,5 +1,8 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
 
+html{
+    font-size: 16px;
+}
 body {
     margin: 0;
     padding: 0;
@@ -13,12 +16,12 @@ header {
   text-align: center;
 }
 h1{
-  font-size: 48px;
+  font-size: 3rem;
   margin: 0 0 16px 0;
 }
 h2{
   font-weight: 300;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin: 0 0 16px 0;
 }
 .container{
@@ -30,7 +33,7 @@ h2{
   display: inline-block;
   color: white;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   background: #549DA0;
   border: none;
   border-radius: 5px;
@@ -39,6 +42,67 @@ h2{
 }
 .btn:hover{
   background: #468486;
+}
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+.features {
+  background: #FFFFFF;
+  color: #000000;
+}
+.feature {
+    width: 32%;
+    display: inline-block;
+    font-size:1rem;
+}
+.feature img {
+    width:40%;
+}
+.quote {
+  background:#549DA0;
+  color:#FFFFFF;
+}
+blockquote{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+blockquote p{
+  margin: 0 0 5px 0;
+  font-size: 1.5rem;
+}
+blockquote cite{
+  font-size: 1rem;
+  font-style: italic;
+}
+blockquote cite:before{
+  content: '-';
+  margin-right: 5px;
+}
+footer {
+  background: #353535;
+  padding: 32px 0;
+  text-align: center;
+  color: #868686;
+  font-size: 0.75rem;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer li {
+    display: inline-block;
+}
+footer li a {
+    padding: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #c3c3c3;
+}
+footer li a:hover {
+    color: white;
 }
 .submenu {
     left: 50%;
@@ -59,65 +123,6 @@ h2{
 }
 .submenu a:hover {
     background-color: #468486;
-section {
-  padding: 40px 0;
-  text-align: center;
-}
-.features {
-  background: #FFFFFF;
-  color: #000000;
-}
-.feature {
-    width: 32%;
-    display: inline-block;
-    font-size:16px;
-}
-.feature img {
-    width:40%;
-}
-.quote {
-  background:#549DA0;
-  color:#FFFFFF;
-}
-blockquote{
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-blockquote p{
-  margin: 0 0 5px 0;
-  font-size: 24px;
-}
-blockquote cite{
-  font-size: 16px;
-  font-style: italic;
-}
-blockquote cite:before{
-  content: '-';
-  margin-right: 5px;
-}
-footer {
-  background: #353535;
-  padding: 32px 0;
-  text-align: center;
-  color: #868686;
-}
-footer ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-footer li {
-    display: inline-block;
-}
-footer li a {
-    padding: 6px;
-    font-size: 14px;
-    text-decoration: none;
-    color: #c3c3c3;
-}
-footer li a:hover {
-    color: white;
 }
 
 @media screen and (max-width: 480px){
