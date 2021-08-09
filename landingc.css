@@ -8,10 +8,10 @@ body {
     padding: 0;
     font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
     line-height: 1.45;
+    background-image: url('background1.jpg');
 }
 header {
   color: #FFFFFF;
-  background-image: url('background1.jpg');
   padding: 80px 0;
   text-align: center;
 }
