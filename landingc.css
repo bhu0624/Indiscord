@@ -103,6 +103,10 @@ footer li a:hover {
 }
 
 @media screen and (max-width: 480px){
+  .container img{
+      width: 100px;
+      height: 100px;
+    }
   .btn{
     display: block;
     font-size: 1.125rem;
