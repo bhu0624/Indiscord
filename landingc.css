@@ -18,6 +18,11 @@ header {
     background-size: cover;
     position: relative;   
 }
+#logo{
+    width: 100px;
+    height: 100px;
+    align: left;
+}
 h1{
   font-size: 3rem;
   margin: 0 0 16px 0;
